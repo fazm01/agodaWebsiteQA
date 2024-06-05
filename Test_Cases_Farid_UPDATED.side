@@ -1,0 +1,903 @@
+{
+  "id": "b7373ae5-7887-4727-b554-b120b7ae84e0",
+  "version": "2.0",
+  "name": "Test_Cases_Farid",
+  "url": "https://www.agoda.com/cart",
+  "tests": [{
+    "id": "e6863405-915b-4640-a88d-70dab5eb404d",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2bce036f-8d2a-45a4-97f0-efcbd589cf53",
+    "name": "TC05_Filter_4_Star_Hotels",
+    "commands": [{
+      "id": "ecc394a9-a90e-46de-9fcd-a6f66eb63c8a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a947a9-e5ab-4af0-ac81-5bb45eeffff1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1d73d75-8599-4964-9494-b08005c3ee5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bXsPY",
+      "targets": [
+        ["css=.bXsPY", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div[2]/button/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ffb90f7-5b47-4ef6-8ac8-de07ad562e60",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,94)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d2cff00-0609-4d9b-9c6e-a5a084ec29d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.PropertyCard:nth-child(1) .HeroImage",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .HeroImage", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div/a/div/div/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e55194b7-b7d7-484f-bd2f-69ef84e2ffb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-items:nth-child(6) .RecommendedByDestinationCity-4 .checkbox-icon",
+      "targets": [
+        ["css=.filter-items:nth-child(6) .RecommendedByDestinationCity-4 .checkbox-icon", "css:finder"],
+        ["xpath=//div[@id='SideBarLocationFilters']/div/div[6]/ul/li/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d6f01f-bf9c-4b87-8377-ab6ba145f1ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62d57f56-8e34-4f3c-aa2c-b9a9995cdc93",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"contentContainer\"]/div[3]/ol/li[1]/div/a/div[1]/div[2]/div/header/div[2]/div[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7dd160bc-5a69-4a33-872f-565c254a5188",
+    "name": "TC12_Book_Breakfast_Room",
+    "commands": [{
+      "id": "02b8726e-bb7c-4c13-bc1b-287fbda9df60",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac40d3c7-f25d-42eb-b8a1-0c490ab65964",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6b597b4-b3e8-4c34-8b8f-a056581e026c",
+      "comment": "",
+      "command": "click",
+      "target": "id=textInput",
+      "targets": [
+        ["id=textInput", "id"],
+        ["css=#textInput", "css:finder"],
+        ["xpath=//input[@id='textInput']", "xpath:attributes"],
+        ["xpath=//div[@id='autocomplete-box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bea79c-3183-432c-a3d6-713a49e4378d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,373.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a6bc864-6645-43e4-9cfc-a40b1393d492",
+      "comment": "",
+      "command": "type",
+      "target": "id=textInput",
+      "targets": [
+        ["id=textInput", "id"],
+        ["css=#textInput", "css:finder"],
+        ["xpath=//input[@id='textInput']", "xpath:attributes"],
+        ["xpath=//div[@id='autocomplete-box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Hotel Springs Makuhari"
+    }, {
+      "id": "61ee76ec-9ae9-4f43-a6c6-6a9bbecc1563",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LocationSearch",
+      "targets": [
+        ["css=.LocationSearch", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[2]/div/div/div[5]/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa9e6c1-25e5-42c0-ab99-fd6d498365db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ScreenDimmer",
+      "targets": [
+        ["css=.ScreenDimmer", "css:finder"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a5c574e-08d1-463b-bcde-82e1ca8bb729",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hKHQVh > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2",
+      "targets": [
+        ["css=.hKHQVh > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b3bf16-a6b5-4048-ad06-758fdbb4f285",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Oak Hotel Edo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20940986-ca9f-4797-81cd-8c15ce5a0fa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Oak Hotel Edo')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9033",
+      "windowTimeout": 2000
+    }, {
+      "id": "0600eb7c-8b54-4372-9f82-6ddee02c0708",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(2) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Oak Hotel Edo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f71fee-9d99-4ed7-bba4-b26a1603158a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9033}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a3cb989-56d5-47be-9a4d-0655c1f6cbcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,716)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1336e0a7-098a-4f10-9e4f-ef844a5469a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,915.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6e50a8-6aab-481c-8892-c4f7dad340c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1316)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "240d5182-d104-4530-b4e9-886a50596c54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.juhwCZ .Typographystyled__TypographyStyled-sc-j18mtu-0 > .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=.juhwCZ .Typographystyled__TypographyStyled-sc-j18mtu-0 > .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='roomGrid']/div/div/div[3]/div[2]/div/div/div/p/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/p/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d7c4ce0-6247-4e27-80c3-c63e8717ddd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBaMk43dEp0amZCaStDeFA1QzBVUUtWUWhFdjRyK2JDbk1ZNXZEbUE3bk5NQUF4bTljSVIxald4L1d5TDRqSUdDTTVSdllvcE94OVVIWlREV1l4Q0tkNkYxTXRhaW1aMEdTNVVDaHpOMjc1VmMvYjF0NTVHZHV6ZG0wM0hJcGpIUkdIZjA3OTRJQ3BOL2orQUFnekt0MkhBQUFBfDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ\\=\\= .Box-sc-kv6pi1-0 .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=#ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBaMk43dEp0amZCaStDeFA1QzBVUUtWUWhFdjRyK2JDbk1ZNXZEbUE3bk5NQUF4bTljSVIxald4L1d5TDRqSUdDTTVSdllvcE94OVVIWlREV1l4Q0tkNkYxTXRhaW1aMEdTNVVDaHpOMjc1VmMvYjF0NTVHZHV6ZG0wM0hJcGpIUkdIZjA3OTRJQ3BOL2orQUFnekt0MkhBQUFBfDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ\\=\\= .Box-sc-kv6pi1-0 .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBaMk43dEp0amZCaStDeFA1QzBVUUtWUWhFdjRyK2JDbk1ZNXZEbUE3bk5NQUF4bTljSVIxald4L1d5TDRqSUdDTTVSdllvcE94OVVIWlREV1l4Q0tkNkYxTXRhaW1aMEdTNVVDaHpOMjc1VmMvYjF0NTVHZHV6ZG0wM0hJcGpIUkdIZjA3OTRJQ3BOL2orQUFnekt0MkhBQUFBfDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ==']/div/div[5]/div/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/div/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38196fae-4709-4661-b027-aa36381cef21",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jxFsnW .eZCQek",
+      "targets": [
+        ["css=.jxFsnW .eZCQek", "css:finder"],
+        ["xpath=//div[3]/button/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proceed to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e173bf7-fb8f-43fb-94f9-b842cb62519d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jxFsnW .eZCQek",
+      "targets": [
+        ["css=.jxFsnW .eZCQek", "css:finder"],
+        ["xpath=//div[3]/button/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proceed to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf858870-a87b-41c9-831e-a8242716d959",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bwgbhw",
+      "targets": [
+        ["css=.bwgbhw", "css:finder"],
+        ["xpath=//div[@id='contentReact']/div/div[3]/div/div/div[2]/div/div/div/div/div/a/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Oak Hotel Edo')]", "xpath:innerText"]
+      ],
+      "value": "Hotel Springs Makuhari"
+    }]
+  }, {
+    "id": "2e2ae71d-95c0-40ba-9507-7afd68719cd0",
+    "name": "TC08_Enzo_Tokyo_Booking_Positive",
+    "commands": [{
+      "id": "fa576d6a-a266-46b2-a0b3-4645e17f7aab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f20eaf2-f7e4-463d-a4ab-524ea0e02f65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a45f1509-c59e-457c-a600-dc6be9d7b566",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cLrbU:nth-child(2)",
+      "targets": [
+        ["css=.cLrbU:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='page-header']/section/div/nav/div[2]/div/ul/li[5]/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Apartments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b390e7-4492-4b15-ab92-eda63eb1c401",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cLrbU:nth-child(2)",
+      "targets": [
+        ["css=.cLrbU:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='page-header']/section/div/nav/div[2]/div/ul/li[5]/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Apartments')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2952",
+      "windowTimeout": 2000
+    }, {
+      "id": "26ba9729-3f12-4170-8b06-e79c5687efea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cLrbU:nth-child(2)",
+      "targets": [
+        ["css=.cLrbU:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='page-header']/section/div/nav/div[2]/div/ul/li[5]/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Apartments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd3cb82-95be-4a42-9ec2-a68410fcdf2c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2952}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de413122-4e4b-4c07-8c23-e8d30faa8003",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBoxTextEditor",
+      "targets": [
+        ["css=.SearchBoxTextEditor", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5c53c1-5cab-4642-adc4-ef4a333d5962",
+      "comment": "",
+      "command": "type",
+      "target": "css=.SearchBoxTextEditor",
+      "targets": [
+        ["css=.SearchBoxTextEditor", "css:finder"],
+        ["xpath=//input[@value='Enzo Tokyo']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Enzo Tokyo"
+    }, {
+      "id": "0da76200-e0f0-4c74-a105-a8851bea2d48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Suggestion:nth-child(1)",
+      "targets": [
+        ["css=.Suggestion:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd5b6df-6021-4985-b39f-8c04dad707d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Searchbox__searchButton__text",
+      "targets": [
+        ["css=.Searchbox__searchButton__text", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dacc50d1-17f5-4def-a3e0-d3435994470c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Enzo Tokyo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d4692f-2d20-4fdf-92a5-483749c2dd18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Enzo Tokyo')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8071",
+      "windowTimeout": 2000
+    }, {
+      "id": "0570e2f7-d7b8-42ee-9252-4d1ca9782e97",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Enzo Tokyo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da9e6ee-1c19-49fe-adf6-cbead1b573bc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8071}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bb43618-7efa-4087-b36a-1a9897dc6bbb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,560)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a44424f5-128d-4e6b-a3ed-4e8e11725307",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1260)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08a993e8-81fe-4a1c-a872-776de093d87b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ChildRoom-CogBCJa6ipYBEAQgAjAESgszNjVENTJQXzUyUFC8L3pqU29tZSg2MjEwMDE1KXwxNTczNzIwNDN8MXw2MjEwMDE1MTFfMjcyNDU0MTU2XzJfMF8wXzB8MnwxNHxMaXN0KCl8MzY1RDUyUF81MlB8U29tZShmYWxzZXx0cnVlfDM2NUQ1MlBfNTJQKRICCAEaBhgBKAQwAQ\\=\\= .Box-sc-kv6pi1-0 .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=#ChildRoom-CogBCJa6ipYBEAQgAjAESgszNjVENTJQXzUyUFC8L3pqU29tZSg2MjEwMDE1KXwxNTczNzIwNDN8MXw2MjEwMDE1MTFfMjcyNDU0MTU2XzJfMF8wXzB8MnwxNHxMaXN0KCl8MzY1RDUyUF81MlB8U29tZShmYWxzZXx0cnVlfDM2NUQ1MlBfNTJQKRICCAEaBhgBKAQwAQ\\=\\= .Box-sc-kv6pi1-0 .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='ChildRoom-CogBCJa6ipYBEAQgAjAESgszNjVENTJQXzUyUFC8L3pqU29tZSg2MjEwMDE1KXwxNTczNzIwNDN8MXw2MjEwMDE1MTFfMjcyNDU0MTU2XzJfMF8wXzB8MnwxNHxMaXN0KCl8MzY1RDUyUF81MlB8U29tZShmYWxzZXx0cnVlfDM2NUQ1MlBfNTJQKRICCAEaBhgBKAQwAQ==']/div/div[4]/div[2]/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fd994b-e889-411b-abfe-cae30a895587",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jxFsnW .eZCQek",
+      "targets": [
+        ["css=.jxFsnW .eZCQek", "css:finder"],
+        ["xpath=//div[3]/button/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proceed to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1dfb7a6-673a-432f-abb2-4b6ca16faa59",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.erpVal",
+      "targets": [
+        ["css=.erpVal", "css:finder"],
+        ["xpath=//div[@id='contentReact']/div/div[3]/div/div/div[2]/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d0063b40-791d-4e4c-88fe-d01ae0267848",
+    "name": "TC07_Booking_Negative",
+    "commands": [{
+      "id": "12bac1a8-e4b8-4048-a088-805cf2cf01b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89f790b2-d011-4398-9995-91ad266fbcde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f418f6d-ca38-49d0-8cc0-7703e279f50e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bXsPY",
+      "targets": [
+        ["css=.bXsPY", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div[2]/button/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1182edbc-6a9d-4f2c-b98b-ea1877ea188c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.PropertyCard:nth-child(1) .sc-bdfBwQ:nth-child(3) .sc-bdfBwQ:nth-child(1) > .sc-jrAGrp:nth-child(1)",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .sc-bdfBwQ:nth-child(3) .sc-bdfBwQ:nth-child(1) > .sc-jrAGrp:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div/a/div/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "238ad718-6d17-4083-9d02-abf94c1f04a6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.PropertyCard:nth-child(1) .sc-bdfBwQ:nth-child(3) .sc-bdfBwQ:nth-child(1) > .sc-jrAGrp:nth-child(1)",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .sc-bdfBwQ:nth-child(3) .sc-bdfBwQ:nth-child(1) > .sc-jrAGrp:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div/a/div/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bacbb8ef-ac68-48f4-b057-c6a27c87fbd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Hotel Springs Makuhari')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6648",
+      "windowTimeout": 2000
+    }, {
+      "id": "192f3e7d-e53b-42a8-859b-183eba492af5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6648}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9622ed-b26f-4e60-bd6b-b1666f91ff98",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1135.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55e4ff97-78d1-48c3-a4b1-ff56ec63e7f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxNTA1ODczMDE0ODh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDYwfDE1MDU4NzMwMTQ4OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ\\=\\= .Buttonstyled__ButtonStyled-sc-5gjk6l-0 .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=#ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxNTA1ODczMDE0ODh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDYwfDE1MDU4NzMwMTQ4OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ\\=\\= .Buttonstyled__ButtonStyled-sc-5gjk6l-0 .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxNTA1ODczMDE0ODh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDYwfDE1MDU4NzMwMTQ4OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ==']/div/div[4]/div[2]/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "217a6d1a-70ff-4a87-bbc4-6d365dedd4bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hRUYUu > .RBeKP > path",
+      "targets": [
+        ["css=.hRUYUu > .RBeKP > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5546b3c-d19b-4fe7-9d52-22cb0a0ec91f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxNTA1ODczMDE0ODh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDYwfDE1MDU4NzMwMTQ4OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ\\=\\= .Buttonstyled__ButtonStyled-sc-5gjk6l-0 .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=#ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxMTM1MjExODUxNjh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDY2fDExMzUyMTE4NTE2OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ\\=\\= .Buttonstyled__ButtonStyled-sc-5gjk6l-0 .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='ChildRoom-CpkBCOi6rNkDEAIgAjACSgsyRDEwMFBfMTAwUFDQuAN6elNvbWUoMTg4MTAyODU4KXw0OTYzNDA2NjB8MXwxMTM1MjExODUxNjh8MXxST3xMaXN0KCl8MkQxMDBQXzEwMFB8U29tZSh0cnVlfDF8Uk98MTg4MTAyODU4fGZhbHNlfDY2fDExMzUyMTE4NTE2OHwyMTE3NjU2MXwpEgIIARoEKAIwAQ==']/div/div[5]/div/div/div/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[5]/div/div/div/div/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24811107-2271-453e-ac13-474bc3f9e41e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jxFsnW .eZCQek",
+      "targets": [
+        ["css=.jxFsnW .eZCQek", "css:finder"],
+        ["xpath=//div[3]/button/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Proceed to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c024a7-63e8-474e-8b09-0d535d413218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Labelstyled__LabelStyled-sc-cj4uls-0 > .Spanstyled__SpanStyled-sc-16tp9kb-0",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Labelstyled__LabelStyled-sc-cj4uls-0 > .Spanstyled__SpanStyled-sc-16tp9kb-0", "css:finder"],
+        ["xpath=//div[@id='contentReact']/div/div[3]/div/div/div[3]/div/div/div[3]/div/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 x Standard Single Room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cececc1-a947-46d7-841e-c5990a336b6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(2) .Labelstyled__LabelStyled-sc-cj4uls-0 > .Spanstyled__SpanStyled-sc-16tp9kb-0",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(2) .Labelstyled__LabelStyled-sc-cj4uls-0 > .Spanstyled__SpanStyled-sc-16tp9kb-0", "css:finder"],
+        ["xpath=//div[@id='contentReact']/div/div[3]/div/div/div[3]/div/div[2]/div[3]/div/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67986b55-1f44-4c17-bf55-b16c97f318c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cZmISS > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2",
+      "targets": [
+        ["css=.cZmISS > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2", "css:finder"],
+        ["xpath=//div[@id='contentReact']/div/div[3]/div/div[2]/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68dbe0e-cebb-4604-9242-4198a4fd00d8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(2) .Spanstyled__SpanStyled-sc-16tp9kb-0 > span",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(2) .Spanstyled__SpanStyled-sc-16tp9kb-0 > span", "css:finder"],
+        ["xpath=//div[@id='agoda-spa']/main/div/div/div[2]/div/div[2]/div[2]/ul/span/span", "xpath:idRelative"],
+        ["xpath=//ul/span/span", "xpath:position"]
+      ],
+      "value": "Hurry! Our last room for your dates at this price"
+    }, {
+      "id": "da0a789a-9ffa-4647-842c-a3d8170afd68",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"agoda-spa\"]/main/div[1]/div/div[2]/div[1]/div[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6a04953-40e3-4ea1-86b5-89f90d7507a4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"agoda-spa\"]/main/div[1]/div/div[2]/div[1]/div[3]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d343ff04-c079-4678-a2b1-3ea94979b7d6",
+    "name": "TC13_Remove_From_Cart",
+    "commands": [{
+      "id": "a76d8665-b269-4a76-bae0-a86bf61e8e5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.agoda.com/cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fcc2d59-a49f-45df-9d65-0ec21228ce0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "322b5ebd-8b4b-4694-8f2b-a5a6baf50bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "61df9689-136b-43d2-8ce1-5643a921ef7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "856bb3ae-0be6-4b00-8cfc-3993faf2bb8f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path",
+      "targets": [
+        ["css=.Box-sc-kv6pi1-0:nth-child(1) > .Box-sc-kv6pi1-0 > .Box-sc-kv6pi1-0 > .Buttonstyled__ButtonStyled-sc-5gjk6l-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c50644c-6652-49ba-8434-90f2434ecf1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bHKIha > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2",
+      "targets": [
+        ["css=.bHKIha > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2", "css:finder"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26161d48-368e-46af-bbb2-caadf395728d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//*[@id=\"contentReact\"]/div/div[3]/div/div[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d1b80a8c-dad9-4b69-981f-0aad590cb401",
+    "name": "TC11_Sort_Breakfast_Included_Rooms_Makahuri",
+    "commands": [{
+      "id": "8e66e93d-1302-4ed5-83ce-8d488183cb1c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "566f8096-4bd4-4636-8b7f-c442ee96bb9b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef31f73-642b-41db-a0e7-a9a7b7283cb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=textInput",
+      "targets": [
+        ["id=textInput", "id"],
+        ["css=#textInput", "css:finder"],
+        ["xpath=//input[@id='textInput']", "xpath:attributes"],
+        ["xpath=//div[@id='autocomplete-box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6303f45b-6d1b-4311-a86d-7924f9c61f52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,236)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "963b764d-4d3e-4617-bbaa-2782944e9efb",
+      "comment": "",
+      "command": "type",
+      "target": "id=textInput",
+      "targets": [
+        ["id=textInput", "id"],
+        ["css=#textInput", "css:finder"],
+        ["xpath=//input[@id='textInput']", "xpath:attributes"],
+        ["xpath=//div[@id='autocomplete-box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Hotel Springs Makahuri"
+    }, {
+      "id": "30d3b30c-878e-44a9-861e-bfa2b143490b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Suggestion__categoryName_container",
+      "targets": [
+        ["css=.Suggestion__categoryName_container", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[2]/div/div/div[5]/div/div/ul/li/ul/li", "xpath:idRelative"],
+        ["xpath=//li/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac37385e-fac8-4ce4-9c4e-7cc36e7f5ced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ScreenDimmer",
+      "targets": [
+        ["css=.ScreenDimmer", "css:finder"],
+        ["xpath=//div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030a7b13-1ccf-4b62-b7d8-483ca61c21e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hKHQVh > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2",
+      "targets": [
+        ["css=.hKHQVh > .BaseButtonstyled__HiddenToggler-sc-12j2fzo-2", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6467aea-723b-4c98-b7d4-7b1bf1e3c6e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp",
+      "targets": [
+        ["css=.PropertyCard:nth-child(1) .Itemstyled__Item-sc-12uga7p-0 > .sc-bdfBwQ > .sc-bdfBwQ > .sc-bdfBwQ > .sc-jrAGrp", "css:finder"],
+        ["xpath=//div[@id='contentContainer']/div[3]/ol/li/div[2]/a/div/div[2]/div/header/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Hotel Springs Makuhari')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1829",
+      "windowTimeout": 2000
+    }, {
+      "id": "e55da034-3703-4846-9244-2f0f5fbd69da",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1829}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d801c003-fc6a-41d3-ba14-3f431840ab7e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,716)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25531b78-b160-4195-96fa-b4b9b7f5144a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,915.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e7669d2-1523-4871-bd94-218e25488178",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1316)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4472a4b-861c-4258-aafe-3c18b6f32878",
+      "comment": "",
+      "command": "click",
+      "target": "css=.juhwCZ .Typographystyled__TypographyStyled-sc-j18mtu-0 > .Box-sc-kv6pi1-0",
+      "targets": [
+        ["css=.juhwCZ .Typographystyled__TypographyStyled-sc-j18mtu-0 > .Box-sc-kv6pi1-0", "css:finder"],
+        ["xpath=//div[@id='roomGrid']/div/div/div[3]/div[2]/div/div/div/p/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/p/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28fb93fc-2500-45ee-8ee4-04ee9b1efc46",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBabU45a203YTNnUmZEWUg5amFWQUtWUWhFdnhYODNGZVl3ek9ITlRsWW02b2hGV3ErUnpyU3N6OXYxV0FBSVltUW5FSS9BS3A3aGt6TkJrNXBrTnFzR2ZwaU5VMUFmaE9jVTgyaHROZTcyenYyMmxZOHRRM25scWgyR1EzQ2lBOUQ5YzZrSEo2VGE2UHNESlRxYldZY0FBQUE9fDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ\\=\\= .RoomFeature__FreeMessage:nth-child(4)",
+      "targets": [
+        ["css=#ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBabU45a203YTNnUmZEWUg5amFWQUtWUWhFdnhYODNGZVl3ek9ITlRsWW02b2hGV3ErUnpyU3N6OXYxV0FBSVltUW5FSS9BS3A3aGt6TkJrNXBrTnFzR2ZwaU5VMUFmaE9jVTgyaHROZTcyenYyMmxZOHRRM25scWgyR1EzQ2lBOUQ5YzZrSEo2VGE2UHNESlRxYldZY0FBQUE9fDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ\\=\\= .RoomFeature__FreeMessage:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='ChildRoom-CoADCKag44oEEAIgKDAEQAFKCzFEMTAwUF8xMDBQUJ62A3reAlNvbWUoMTYzNTYxMSl8NTQ4MTY5NzQ3fDIwfDExNjAzOTAzMjR8Mnx8TGlzdCgxKXwxRDEwMFBfMTAwUHxTb21lKFB1YmxpY1BhcmFtZXRlcixINHNJQUFBQUFBQUFBQjNOd1FyQ01CQUUwSC9acTBabU45a203YTNnUmZEWUg5amFWQUtWUWhFdnhYODNGZVl3ek9ITlRsWW02b2hGV3ErUnpyU3N6OXYxV0FBSVltUW5FSS9BS3A3aGt6TkJrNXBrTnFzR2ZwaU5VMUFmaE9jVTgyaHROZTcyenYyMmxZOHRRM25scWgyR1EzQ2lBOUQ5YzZrSEo2VGE2UHNESlRxYldZY0FBQUE9fDUwMXwxMTYwMzkwMzI0fDE2MzU2MTF8MUQxMDBQXzEwMFB8MTE2MDM5MDMyNHx0cnVlfDM2OTU4OTg5MHxQUHxmYWxzZXx8SlBOfDJfMF8wOnwpEgIIARoEKAQwAQ==']/div/div/div/div/div/div/div/span/span/span[4]", "xpath:idRelative"],
+        ["xpath=//span/span[4]", "xpath:position"]
+      ],
+      "value": "Included"
+    }]
+  }],
+  "suites": [{
+    "id": "48e13767-c396-478f-b820-19469835573a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6863405-915b-4640-a88d-70dab5eb404d"]
+  }, {
+    "id": "bf07bc06-6fb9-4b6f-b1d2-d13ba5e01968",
+    "name": "Booking_Test_Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1b80a8c-dad9-4b69-981f-0aad590cb401", "7dd160bc-5a69-4a33-872f-565c254a5188", "d343ff04-c079-4678-a2b1-3ea94979b7d6"]
+  }],
+  "urls": ["https://www.agoda.com/", "https://www.agoda.com/cart"],
+  "plugins": []
+}
